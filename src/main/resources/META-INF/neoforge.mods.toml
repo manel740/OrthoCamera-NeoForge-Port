@@ -1,13 +1,14 @@
 modLoader="javafml"
 loaderVersion="[1,)"
 license="MIT"
-issueTrackerURL="https://github.com/manel740/OrthoCamera/issues"
+displayURL="https://github.com/manel740/OrthoCamera-NeoForge-Port"
+issueTrackerURL="https://github.com/manel740/OrthoCamera-NeoForge-Port/issues"
 
 [[mods]]
 modId="orthocamera"
 version="${version}"
 displayName="OrthoCamera"
-authors="manuel740, DimasKama"
+authors="manuel740"
 description='''
 Toggleable orthographic view
 '''
