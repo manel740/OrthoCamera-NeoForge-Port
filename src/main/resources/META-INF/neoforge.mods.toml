@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+issueTrackerURL="https://github.com/manel740/OrthoCamera/issues"
+
+[[mods]]
+modId="orthocamera"
+version="${version}"
+displayName="OrthoCamera"
+authors="manuel740, DimasKama"
+description='''
+Toggleable orthographic view
+'''
+logoFile="assets/orthocamera/icon.png"
+
+[[dependencies.orthocamera]]
+modId="neoforge"
+type="required"
+versionRange="[26.2.0.8-beta,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.orthocamera]]
+modId="minecraft"
+type="required"
+versionRange="[26.2,)"
+ordering="NONE"
+side="CLIENT"
+
+[[mixins]]
+config="orthocamera.mixins.json"
